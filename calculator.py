@@ -1,3 +1,23 @@
+def addition(n1, n2):
+    result = n1 + n2
+    return result
+
+
+def subtraction(n1, n2):
+    result = n1 - n2
+    return result
+
+
+def multiplication(n1, n2):
+    result = n1 * n2
+    return result
+
+
+def division(n1, n2):
+    result = n1 / n2
+    return  result
+
+
 def main():
     while True:
         print('Menu:')
@@ -34,24 +54,6 @@ def main():
             print('Goodbye!')
             break
 
-def addition(n1, n2):
-    result = n1 + n2
-    return result
-
-
-def subtraction(n1, n2):
-    result = n1 - n2
-    return result
-
-
-def multiplication(n1, n2):
-    result = n1 * n2
-    return result
-
-
-def division(n1, n2):
-    result = n1 / n2
-    return  result
-
 if __name__=="__main__":
     main()
+    
